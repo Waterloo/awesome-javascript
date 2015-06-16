@@ -49,13 +49,16 @@ A collection of awesome browser-side  JavaScript libraries, resources and shiny 
     * [Scroll](#scroll)
     * [Menu](#menu)
     * [Table/Grid](#tablegrid)
+    * [Frameworks](#frameworks-1)
   * Mobile
     * [Gesture](#gesture)
   * [Maps](#maps)
   * [Animations](#animations)
   * [Image processing](#image-processing)
   * [ES6](#es6)
+  * [SDK](#sdk)
   * [Misc](#misc)
+* [Worth Reading](#worth-reading)
 * [Other Awesome Lists](#other-awesome-lists)
 * [Contributing](#contributing)
 
@@ -88,7 +91,8 @@ A collection of awesome browser-side  JavaScript libraries, resources and shiny 
 * [script.js](https://github.com/ded/script.js) - Asyncronous JavaScript loader and dependency manager.
 * [systemjs](https://github.com/systemjs/systemjs) - AMD, CJS & ES6 spec-compliant module loader.
 * [webpack](https://github.com/webpack/webpack) - Module loader made for big projects. Supports AMD, CommonJS, and more.
-
+* [LodJS](https://github.com/yanhaijing/lodjs) - Module loader based on AMD
+* [ESL](https://github.com/ecomfe/esl) - Module loader browser first, support lazy define and AMD.
 
 ## Testing Frameworks
 
@@ -99,11 +103,12 @@ A collection of awesome browser-side  JavaScript libraries, resources and shiny 
 * [qunit](https://github.com/jquery/qunit) - An easy-to-use JavaScript Unit Testing framework.
 * [jest](http://github.com/facebook/jest) - Painless Javascript Unit Testing.
 * [prova](http://github.com/azer/prova) - Node & Browser test runner based on Tape and Browserify
+* [DalekJS](https://github.com/dalekjs/dalek) - Automated cross browser functional testing with JavaScript
 
 ### Assertion
 
 * [chai](https://github.com/chaijs/chai) - BDD / TDD assertion framework for node.js and the browser that can be paired with any testing framework. [![](http://spmjs.io/badge/chai)](http://spmjs.io/package/chai)
-* [Sinon.JS](https://github.com/cjohansen/Sinon.JS) - Test spies, stubs and mocks for JavaScript. [![](http://spmjs.io/badge/sinon)](http://spmjs.io/package/sinon)
+* [Sinon.JS](https://github.com/cjohansen/Sinon.JS) - Test spies, stubs, and mocks for JavaScript. [![](http://spmjs.io/badge/sinon)](http://spmjs.io/package/sinon)
 * [expect.js](https://github.com/LearnBoost/expect.js) - Minimalistic BDD-style assertions for Node.JS and the browser. [![](http://spmjs.io/badge/expect.js)](http://spmjs.io/package/expect.js)
 
 ### Coverage
@@ -132,6 +137,7 @@ A collection of awesome browser-side  JavaScript libraries, resources and shiny 
 * [jsinspect](https://github.com/danielstjules/jsinspect) - Detect copy-pasted and structurally similar code.
 * [buddy.js](https://github.com/danielstjules/buddy.js) - Magic number detection for JavaScript.
 * [ESLint](https://github.com/eslint/eslint) - A fully pluggable tool for identifying and reporting on patterns in JavaScript.
+* [JSLint](https://github.com/douglascrockford/JSLint) - High-standards, strict & opinionated code quality tool, aiming to keep only good parts of the language.
 
 
 ## MVC Frameworks and Libraries
@@ -148,6 +154,7 @@ A collection of awesome browser-side  JavaScript libraries, resources and shiny 
 * [espresso.js](https://github.com/techlayer/espresso.js) - A minimal javascript library for crafting user interfaces. [![](http://spmjs.io/badge/espresso.js)](http://spmjs.io/package/espresso.js)
 * [canjs](https://github.com/bitovi/canjs) - Can do JS, better, faster, easier.
 * [react](https://facebook.github.io/react/) - A library for building user interfaces. It's declarative, efficient, and extremely flexible. Works with a Virtual DOM.
+* [riot](https://github.com/riot/riot) - React-like library, but with very small size.
 * [thorax](https://github.com/walmartlabs/thorax) - Strengthening your Backbone.
 * [chaplin](https://github.com/chaplinjs/chaplin) - An architecture for JavaScript applications using the Backbone.js library.
 * [marionette](https://github.com/marionettejs/backbone.marionette) - A composite application library for Backbone.js that aims to simplify the construction of large scale JavaScript applications.
@@ -157,6 +164,8 @@ A collection of awesome browser-side  JavaScript libraries, resources and shiny 
     * [derby-awesome](https://github.com/onerussell/awesome-derby) - A collection of awesome derby components
 * [way.js](https://github.com/gwendall/way.js) - Simple, lightweight, persistent two-way databinding. [![](http://spmjs.io/badge/way.js)](http://spmjs.io/package/way.js)
 * [mithril.js](https://github.com/lhorie/mithril.js) - Mithril is a client-side MVC framework (Light-weight, Robust, Fast).
+* [jsblocks](https://github.com/astoilkov/jsblocks) - jsblocks is better MV-ish framework.
+* [LiquidLava](http://www.lava-framework.com/) - Transparent MVC framework for building user interfaces.
 
 ## Non-MVC Frameworks
 
@@ -174,13 +183,15 @@ A collection of awesome browser-side  JavaScript libraries, resources and shiny 
 * [eco](https://github.com/sstephenson/eco/) - Embedded CoffeeScript templates.
 * [JavaScript-Templates](https://github.com/blueimp/JavaScript-Templates) - < 1KB lightweight, fast & powerful JavaScript templating engine with zero dependencies.
 * [t.js](https://github.com/jasonmoo/t.js) - A tiny javascript templating framework in ~400 bytes gzipped.
-
+* [Jade](https://github.com/jadejs/jade) - Robust, elegant, feature rich template engine for nodejs.
+* [EJS](https://github.com/mde/ejs) - Effective JavaScript templating.
 
 ## Data Visualization
 *Data visualization tools for the web.*
 
 * [d3](https://github.com/mbostock/d3) - A JavaScript visualization library for HTML and SVG.  [![](http://spmjs.io/badge/d3)](http://spmjs.io/package/d3)
   * [metrics-graphics](https://github.com/mozilla/metrics-graphics) - A library optimized for concise, principled data graphics and layouts.
+* [pykcharts.js](https://github.com/pykih/PykCharts.js) - Well designed d3.js charting without the complexity of d3.js.
 * [three.js](https://github.com/mrdoob/three.js) - JavaScript 3D library.
 * [Chart.js](https://github.com/nnnick/Chart.js) - Simple HTML5 Charts using the <canvas> tag. [![](http://spmjs.io/badge/chart.js)](http://spmjs.io/package/chart.js)
 * [paper.js](https://github.com/paperjs/paper.js) - The Swiss Army Knife of Vector Graphics Scripting – Scriptographer ported to JavaScript and the browser, using HTML5 Canvas.
@@ -214,7 +225,7 @@ A collection of awesome browser-side  JavaScript libraries, resources and shiny 
 * [c3](https://github.com/masayuki0812/c3) - D3-based reusable chart library.
 * [BabylonJS](https://github.com/BabylonJS/Babylon.js) - A framework for building 3D games with HTML 5 and WebGL.
 
-There're also some great commercial libraries, like [amchart](http://www.amcharts.com/) and [highchart](http://www.highcharts.com/).
+There're also some great commercial libraries, like [amchart](http://www.amcharts.com/), [plotly](https://www.plot.ly/), and [highchart](http://www.highcharts.com/).
 
 
 ## Timeline
@@ -285,12 +296,13 @@ There're also some great commercial libraries, like [amchart](http://www.amchart
 * [jquery-timeago](https://github.com/rmm5t/jquery-timeago) - A jQuery plugin that makes it easy to support automatically updating fuzzy timestamps (e.g. "4 minutes ago"). [![](http://spmjs.io/badge/timeago)](http://spmjs.io/package/timeago)
 * [timezone-js](https://github.com/mde/timezone-js) - Timezone-enabled JavaScript Date object. Uses Olson zoneinfo files for timezone data.
 * [date](https://github.com/MatthewMueller/date) - Date() for humans. [![](http://spmjs.io/badge/date)](http://spmjs.io/package/date)
-* [ms.js](https://github.com/guille/ms.js) - Tiny milisecond conversion utility. [![](http://spmjs.io/badge/ms)](http://spmjs.io/package/ms)
+* [ms.js](https://github.com/guille/ms.js) - Tiny millisecond conversion utility. [![](http://spmjs.io/badge/ms)](http://spmjs.io/package/ms)
 
 
 ## String
 *String Libraries.*
 
+* [selecting](https://github.com/EvandroLG/selecting) - A library that allows you to access the text selected by the user
 * [underscore.string](https://github.com/epeli/underscore.string) - String manipulation extensions for Underscore.js javascript library. [![](http://spmjs.io/badge/underscore.string)](http://spmjs.io/package/underscore.string)
 * [string.js](https://github.com/jprichardson/string.js) - Extra JavaScript string methods. [![](http://spmjs.io/badge/string.js)](http://spmjs.io/package/string.js)
 * [he](https://github.com/mathiasbynens/he) - A robust HTML entity encoder/decoder written in JavaScript. [![](http://spmjs.io/badge/he)](http://spmjs.io/package/he)
@@ -316,9 +328,11 @@ There're also some great commercial libraries, like [amchart](http://www.amchart
 * [jStorage](https://github.com/andris9/jStorage) - jStorage is a simple key/value database to store data on browser side.
 * [cross-storage](https://github.com/zendesk/cross-storage) - Cross domain local storage, with permissions.
 * [basket.js](https://github.com/addyosmani/basket.js) - A script and resource loader for caching & loading scripts with localStorage.
+* [bag.js](https://github.com/nodeca/bag.js) - A caching script and resource loader, similar to basket.js, but with additional k/v interface and localStorage / websql / indexedDB support.
 * [basil.js](https://github.com/Wisembly/basil.js) - The missing Javascript smart persistent layer. [![](http://spmjs.io/badge/basil.js)](http://spmjs.io/package/basil.js)
 * [jquery-cookie](https://github.com/carhartl/jquery-cookie) - A simple, lightweight jQuery plugin for reading, writing and deleting cookies.
 * [Cookies](https://github.com/ScottHamper/Cookies) - JavaScript Client-Side Cookie Manipulation Library.
+* [DB.js] (https://github.com/aaronpowell/db.js/) - Promise based IndexDB Wrapper library
 
 
 ## Color
@@ -329,15 +343,18 @@ There're also some great commercial libraries, like [amchart](http://www.amchart
 * [colors](https://github.com/mrmrs/colors) - Smarter defaults for colors on the web.
 * [PleaseJS](https://github.com/Fooidge/PleaseJS) - JavaScript Library for creating random pleasing colors and color schemes.
 * [TinyColor](https://github.com/bgrins/TinyColor) - Fast, small color manipulation and conversion for JavaScript. [![](http://spmjs.io/badge/tinycolor)](http://spmjs.io/package/tinycolor)
+* [Vibrant.js] (https://github.com/jariz/vibrant.js/) - Extract prominent colors from an image.
 
 ## I18n And L10n
 *Localization (l10n) and internationalization (i18n) JavaScript libraries.*
 
 * [i18next](https://github.com/jamuhl/i18next) - internationalisation (i18n) with javascript the easy way.
 * [polyglot](https://github.com/airbnb/polyglot.js) - tiny i18n helper library.
+* [babelfish](https://github.com/nodeca/babelfish/) - i18n with human friendly API and built in plurals support.
 
 ## Class
 
+* [ClassManager](https://github.com/kogarashisan/ClassManager) - One of the fastest and most convenient class systems in the world
 * [klass](https://github.com/ded/klass) - A utility for creating expressive classes in JavaScript. [![](http://spmjs.io/badge/klass)](http://spmjs.io/package/klass)
 * [augment](https://github.com/javascript/augment) - The world's smallest and fastest classical JavaScript inheritance pattern. [![](http://spmjs.io/badge/augment)](http://spmjs.io/package/augment)
 
@@ -350,6 +367,7 @@ There're also some great commercial libraries, like [amchart](http://www.amchart
 * [contra](https://github.com/bevacqua/contra/) - Asynchronous flow control with a functional taste to it.
 * [Bluebird](https://github.com/petkaantonov/bluebird/) - fully featured promise library with focus on innovative features and performance.
 * [when](https://github.com/cujojs/when) - A solid, fast Promises/A+ and when() implementation, plus other async goodies.
+* [ObjectEventTarget](https://github.com/gartz/ObjectEventTarget) - Provide a prototype that add support to event listeners (with same behavior of EventTarget from DOMElements available on browsers).
 
 
 ## Routing
@@ -393,6 +411,8 @@ There're also some great commercial libraries, like [amchart](http://www.amchart
 
 * [bottleneck](https://github.com/SGrondin/bottleneck) - A powerful rate limiter that makes throttling easy.
 * [oauth-signature-js](https://github.com/bettiolo/oauth-signature-js) - JavaScript OAuth 1.0a signature generator for node and the browser.
+* [amygdala](https://github.com/lincolnloop/amygdala) - RESTful HTTP client for JavaScript powered web applications.
+* [jquery.rest](https://github.com/jpillora/jquery.rest) - A jQuery plugin for easy consumption of RESTful APIs.
 
 ## Vision Detection
 
@@ -408,12 +428,13 @@ There're also some great commercial libraries, like [amchart](http://www.amchart
 ## Loading Status
 *Libraries for indicate load status.*
 
+* [Mprogress.js](https://github.com/lightningtgc/MProgress.js) - Create Google Material Design progress linear bars.
 * [NProgress](http://ricostacruz.com/nprogress/) - Slim progress bars for Ajax'y applications. [![](http://spmjs.io/badge/nprogress)](http://spmjs.io/package/nprogress)
 * [Spin.js](https://github.com/fgnass/spin.js) - A spinning activity indicator. [![](http://spmjs.io/badge/spin.js)](http://spmjs.io/package/spin.js)
 * [progress.js](https://github.com/usablica/progress.js) - Create and manage progress bar for every objects on the page.
 * [pace](https://github.com/HubSpot/pace) - Automatically add a progress bar to your site. [![](http://spmjs.io/badge/pace)](http://spmjs.io/package/pace)
 * [topbar](https://github.com/buunguyen/topbar) - Tiny & beautiful site-wide progress indicator. [![](http://spmjs.io/badge/topbar)](http://spmjs.io/package/topbar)
-* [nanobar](https://github.com/jacoborus/nanobar) - Very lighweight progress bars. No jQuery. [![](http://spmjs.io/badge/nanobar)](http://spmjs.io/package/nanobar)
+* [nanobar](https://github.com/jacoborus/nanobar) - Very lightweight progress bars. No jQuery. [![](http://spmjs.io/badge/nanobar)](http://spmjs.io/package/nanobar)
 * [PageLoadingEffects](https://github.com/codrops/PageLoadingEffects) - Modern ways of revealing new content using SVG animations.
 * [SpinKit](https://github.com/tobiasahlin/SpinKit) - A collection of loading indicators animated with CSS.
 * [Ladda](https://github.com/hakimel/Ladda) - Buttons with built-in loading indicators.
@@ -430,7 +451,8 @@ Besides libraries, there're [Collection on Codepen](http://codepen.io/collection
 * [validate.js](https://github.com/rickharrison/validate.js) - Lightweight JavaScript form validation library inspired by CodeIgniter.
 * [validatr](https://github.com/jaymorrow/validatr/) - Cross Browser HTML5 Form Validation.
 * [BootstrapValidator](https://github.com/nghuuphuoc/bootstrapvalidator) - The best jQuery plugin to validate form fields. Designed to use with Bootstrap 3.
-
+* [is.js](https://github.com/arasatasaygin/is.js) -  Check types, regexps, presence, time and more.
+* [FieldVal](https://github.com/FieldVal/fieldval-js) - multipurpose validation library. Supports both sync and async validation.
 
 ## Keyboard Wrappers
 
@@ -499,6 +521,7 @@ Besides libraries, there're [Collection on Codepen](http://codepen.io/collection
 * [fancyInput](https://github.com/yairEO/fancyInput) - Makes typing in input fields fun with CSS3 effects.
 * [jQuery-Tags-Input](https://github.com/xoxco/jQuery-Tags-Input) - Magically convert a simple text input into a cool tag list with this jQuery plugin.
 * [vanilla-masker](https://github.com/BankFacil/vanilla-masker) - A pure javascript mask input.
+* [Ion.CheckRadio](https://github.com/IonDen/ion.checkRadio) - jQuery plugin for styling checkboxes and radio-buttons. With skin support. [![](http://spmjs.io/badge/ion-checkradio)](http://spmjs.io/package/ion-checkradio)
 
 ### Calendar
 
@@ -571,6 +594,13 @@ Besides libraries, there're [Collection on Codepen](http://codepen.io/collection
 ## Table/Grid
 
 * [jTable](https://github.com/hikalkan/jtable) - A JQuery plugin to create AJAX based CRUD tables.
+* [DataTables](http://www.datatables.net/) - (jQuery plug-in) It is a highly flexible tool, based upon the foundations of progressive enhancement, and will add advanced interaction controls to any HTML table.
+
+
+## Frameworks
+
+* [Semantic UI](http://semantic-ui.com/) - UI Kit with lots of themes and elements
+
 
 ## Gesture
 
@@ -594,25 +624,34 @@ Besides libraries, there're [Collection on Codepen](http://codepen.io/collection
 * [jquery.transit](https://github.com/rstacruz/jquery.transit) - Super-smooth CSS3 transformations and transitions for jQuery.
 * [bounce.js](https://github.com/tictail/bounce.js) - Create tasty CSS3 powered animations in no time.
 * [GreenSock-JS](https://github.com/greensock/GreenSock-JS) - High-performance HTML5 animations that work in all major browsers.
+* [TransitionEnd](https://github.com/EvandroLG/transitionEnd) - TransitionEnd is an agnostic and cross-browser library to work with transitionend event.
+* [Dynamic.js](https://github.com/michaelvillar/dynamics.js) - Javascript library to create physics-based CSS animations.
 
 
 ## Image Processing
 
 * [lena.js](https://github.com/davidsonfellipe/lena.js) - A Library for image processing with filters and util functions.
+* [pica](https://github.com/nodeca/pica) - High quality image resize (with fast Lanczos filter, implemented in pure JS).
 
 ## ES6
 
 * [es6features](https://github.com/lukehoban/es6features) - Overview of ECMAScript 6 features.
 * [ECMAScript 6 compatibility table](http://kangax.github.io/compat-table/es6/) - Compatibility tables for all ECMAScript 6 features on a variety of environments.
-* [6to5](https://github.com/sebmck/6to5) - Turn ES6+ code into vanilla ES5 with no runtime.
+* [Babel (Formerly 6to5)](https://github.com/babel/babel) - Turn ES6+ code into vanilla ES5 with no runtime.
 * [Traceur compiler](https://github.com/google/traceur-compiler) - ES6 features > ES5. Includes classes, generators, promises, destructuring patterns, default parameters & more.
+
+## SDK
+
+* [javascript-sdk-design](http://github.com/huei90/javascript-sdk-design) - Javascript SDK design guide extracted from work and personal experience
 
 ## Misc
 
 * [echo](https://github.com/toddmotto/echo) - Lazy-loading images with data-* attributes. [![](http://spmjs.io/badge/echo.js)](http://spmjs.io/package/echo.js)
+* [picturefill](https://github.com/scottjehl/picturefill) - A responsive image polyfill for <picture>, srcset, sizes
 * [platform.js](https://github.com/bestiejs/platform.js) - A platform detection library that works on nearly all JavaScript platforms. [![](http://spmjs.io/badge/platform.js)](http://spmjs.io/package/platform.js)
 * [json3](https://github.com/bestiejs/json3) - A modern JSON implementation compatible with nearly all JavaScript platforms. [![](http://spmjs.io/badge/json3)](http://spmjs.io/package/json3)
 
+# Worth Reading
 
 # Other Awesome Lists
 * [emijrp/awesome-awesome](https://github.com/emijrp/awesome-awesome)
@@ -623,6 +662,7 @@ Besides libraries, there're [Collection on Codepen](http://codepen.io/collection
 * [peterkokot/awesome-dojo](https://github.com/peterkokot/awesome-dojo)
 * [addyosmani/es6-tools](https://github.com/addyosmani/es6-tools)
 * [ericdouglas/ES6-Learning](https://github.com/ericdouglas/ES6-Learning)
+* [obetomuniz/awesome-webcomponents](https://github.com/obetomuniz/awesome-webcomponents)
 
 # Contributing
 
